@@ -14,7 +14,7 @@ var secret = require('../../config/secret.js');
 var UserModel = require('../../models/userModel.js');
 var UserDIR = path.join( __dirname, '../../../app/users/');
 
-var hostURL = "https://immpres.com:9081";
+var hostURL = "http://localhost:3000";
 
 /**
  * @api {post} /auth/signup Signup a new user
